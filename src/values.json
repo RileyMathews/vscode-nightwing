@@ -3,8 +3,8 @@
   "name": "Nightwing",
   "type": "dark",
   "scheme": {
-    "background": "#212121",
-    "backgroundAlt": "#1a1a1a",
+    "background": "#151515",
+    "backgroundAlt": "#131313",
     "contrastBorder": "#000000",
     "sidebarForeground": "#FFFFFF",
     "scrollbars": "#EEFFFF20",
