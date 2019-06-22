@@ -22,8 +22,8 @@
   "violet": "#bb80b3",
   "teal": "#80CBC4",
   "ui": {
-    "background1": "#151515",
-    "background2": "#131313",
+    "background1": "#202020",
+    "background2": "#151515",
     "foreground1": "#ffffff",
     "foreground2": "#ebebeb",
     "border": "#000000",
