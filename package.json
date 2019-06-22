@@ -1,0 +1,27 @@
+{
+    "name": "nightwing",
+    "displayName": "Nightwing",
+    "description": "Yet another dark theme.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.35.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "scripts": {
+        "build": "mustache ./src/values.json ./src/template.json > ./themes/Nightwing-color-theme.json"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Nightwing",
+                "uiTheme": "hc-black",
+                "path": "./themes/Nightwing-color-theme.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "mustache": "^3.0.1"
+    }
+}
