@@ -13,15 +13,6 @@
       }
     },
     {
-      "name": "Keyword.Operator*",
-      "scope": [
-        "keyword.operator"
-      ],
-      "settings": {
-        "foreground": "#C792EA"
-      }
-    },
-    {
       "name": "String*",
       "scope": [
         "string"
