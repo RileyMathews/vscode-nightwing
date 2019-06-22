@@ -9,19 +9,19 @@
   "twhite": "#ffffff50",
   "gray": "#888888",
   "tgray": "#88888850",
-  "blue": "#5660EB",
+  "blue": "#5F6AFE",
   "red": "#D12A23",
-  "darkred": "#A31710",
+  "darkred": "#B20800",
   "green": "#41FF4E",
   "yellow": "#FFD042",
   "purple": "#A612EB",
   "orange": "#FF8615",
   "ui": {
-    "background1": "#070707",
+    "background1": "#151515",
     "background2": "#131313",
     "foreground1": "#ffffff",
     "foreground2": "#ebebeb",
-    "border": "#888888",
+    "border": "#000000",
     "borderfocus": "#ffffff"
   }
 }

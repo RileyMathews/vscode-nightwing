@@ -3,6 +3,17 @@
   "type": "{{type}}",
   "tokenColors": [
     {
+      "name": "Language Control",
+      "scope": [
+        "keyword.control",
+        "keyword.other.template",
+        "keyword.other.substitution"
+      ],
+      "settings": {
+        "foreground": "{{darkred}}"
+      }
+    },
+    {
       "name": "Comment",
       "scope": [
         "comment",
@@ -10,7 +21,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "{{green}}"
+        "foreground": "{{green}}50"
       }
     },
     {
@@ -94,7 +105,6 @@
     {
       "name": "Operator, Misc",
       "scope": [
-        "keyword.control",
         "constant.other.color",
         "punctuation.definition.tag",
         "punctuation",
@@ -102,9 +112,7 @@
         "punctuation.definition.tag.html",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
-        "punctuation.section.embedded",
-        "keyword.other.template",
-        "keyword.other.substitution"
+        "punctuation.section.embedded"
       ],
       "settings": {
         "foreground": "{{blue}}"
@@ -139,7 +147,7 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "{{blue}}"
+        "foreground": "{{yellow}}"
       }
     },
     {
@@ -224,7 +232,7 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "{{yellow}}"
+        "foreground": "{{orange}}"
       }
     },
     {
@@ -647,8 +655,8 @@
     }
   ],
   "colors": {
-    "contrastBorder": "{{gray}}",
-    "focusBorder": "{{gray}}00",
+    "contrastBorder": "{{black}}",
+    "focusBorder": "{{black}}00",
     "editorCursor.foreground": "{{yellow}}",
     "editorRuler.foreground": "{{offblack}}",
     "scrollbar.shadow": "{{ui.background2}}00",
@@ -670,7 +678,7 @@
     "editor.findMatchBackground": "{{red}}",
     "editorOverviewRuler.findMatchForeground": "{{red}}60",
     "editor.findMatchHighlightBackground": "{{red}}60",
-    "editorOverviewRuler.border": "{{ui.background2}}",
+    "editorOverviewRuler.border": "{{ui.border}}",
     "editorOverviewRuler.errorForeground": "{{red}}40",
     "editorOverviewRuler.infoForeground": "{{blue}}40",
     "editorOverviewRuler.warningForeground": "{{yellow}}40",
@@ -682,20 +690,20 @@
     "editorIndentGuide.background": "{{offblack}}70",
     "editorIndentGuide.activeBackground": "{{offblack}}",
     "editorGroupHeader.tabsBackground": "{{ui.background2}}",
-    "editorGroup.border": "{{tblack}}",
+    "editorGroup.border": "{{ui.border}}",
     "editorGutter.modifiedBackground": "{{blue}}60",
     "editorGutter.addedBackground": "{{green}}60",
     "editorGutter.deletedBackground": "{{red}}60",
     "tab.activeBorder": "{{blue}}",
-    "tab.activeModifiedBorder": "{{ui.foreground2}}",
+    "tab.activeModifiedBorder": "{{ui.border}}",
     "tab.unfocusedActiveBorder": "{{gray}}",
     "tab.activeForeground": "{{ui.foreground2}}",
     "tab.inactiveForeground": "{{ui.foreground2}}",
     "tab.inactiveBackground": "{{ui.background2}}",
     "tab.unfocusedActiveForeground": "{{white}}",
-    "tab.border": "{{ui.background2}}",
+    "tab.border": "{{ui.border}}",
     "statusBar.noFolderBackground": "{{ui.background2}}",
-    "statusBar.border": "{{gray}}60",
+    "statusBar.border": "{{ui.border}}",
     "statusBar.background": "{{ui.background2}}",
     "statusBar.foreground": "{{ui.foreground2}}",
     "statusBar.debuggingBackground": "{{purple}}",
@@ -704,7 +712,7 @@
     "statusBarItem.remoteForeground": "{{black}}",
     "statusBarItem.remoteBackground": "{{blue}}",
     "activityBar.background": "{{ui.background2}}",
-    "activityBar.border": "{{gray}}60",
+    "activityBar.border": "{{ui.border}}",
     "activityBar.foreground": "{{white}}",
     "activityBarBadge.background": "{{blue}}",
     "activityBarBadge.foreground": "{{black}}",
@@ -714,11 +722,11 @@
     "titleBar.inactiveForeground": "{{ui.foreground2}}",
     "sideBar.background": "{{ui.background2}}",
     "sideBar.foreground": "{{ui.foreground2}}",
-    "sideBar.border": "{{gray}}60",
-    "titleBar.border": "{{gray}}60",
+    "sideBar.border": "{{ui.border}}",
+    "titleBar.border": "{{ui.border}}",
     "sideBarTitle.foreground": "{{white}}",
     "sideBarSectionHeader.background": "{{ui.background2}}",
-    "sideBarSectionHeader.border": "{{gray}}60",
+    "sideBarSectionHeader.border": "{{ui.border}}",
     "input.background": "{{ui.background2}}",
     "input.foreground": "{{ui.foreground2}}",
     "input.placeholderForeground": "{{white}}60",
@@ -762,16 +770,16 @@
     "editorSuggestWidget.selectedBackground": "{{tgray}}",
     "editorSuggestWidget.border": "{{ui.border}}",
     "editorWidget.background": "{{ui.background2}}",
-    "editorWidget.resizeBorder": "{{gray}}",
-    "editorWidget.border": "{{gray}}",
+    "editorWidget.resizeBorder": "{{ui.border}}",
+    "editorWidget.border": "{{ui.border}}",
     "editorMarkerNavigation.background": "{{white}}05",
     "widget.shadow": "{{tblack}}",
-    "panel.border": "{{gray}}60",
+    "panel.border": "{{ui.border}}",
     "panel.background": "{{ui.background2}}",
     "panel.dropBackground": "{{white}}",
     "panelTitle.inactiveForeground": "{{white}}",
     "panelTitle.activeForeground": "{{ui.foreground2}}",
-    "panelTitle.activeBorder": "{{gray}}",
+    "panelTitle.activeBorder": "{{ui.border}}",
     "diffEditor.insertedTextBackground": "{{green}}15",
     "diffEditor.removedTextBackground": "{{red}}20",
     "notifications.background": "{{ui.background2}}",
@@ -782,7 +790,7 @@
     "button.background": "{{gray}}",
     "extensionButton.prominentBackground": "{{green}}90",
     "extensionButton.prominentHoverBackground": "{{green}}",
-    "peekView.border": "{{tblack}}",
+    "peekView.border": "{{ui.border}}",
     "peekViewEditor.background": "{{white}}05",
     "peekViewTitle.background": "{{white}}05",
     "peekViewResult.background": "{{white}}05",
@@ -807,11 +815,11 @@
     "menu.foreground": "{{white}}",
     "menu.selectionBackground": "{{tgray}}",
     "menu.selectionForeground": "{{blue}}",
-    "menu.selectionBorder": "{{ui.background1}}",
+    "menu.selectionBorder": "{{ui.border}}",
     "menu.separatorBackground": "{{white}}",
     "menubar.selectionBackground": "{{ui.background1}}",
     "menubar.selectionForeground": "{{blue}}",
-    "menubar.selectionBorder": "{{ui.background1}}",
+    "menubar.selectionBorder": "{{ui.border}}",
     "settings.dropdownForeground": "{{white}}",
     "settings.dropdownBackground": "{{ui.background2}}",
     "settings.numberInputForeground": "{{white}}",
