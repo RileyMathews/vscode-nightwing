@@ -3,14 +3,19 @@
   "type": "{{type}}",
   "tokenColors": [
     {
-      "name": "Language Control",
+      "name": "Keywords",
       "scope": [
+        "keyword",
+        "keyword.other",
+        "keyword.other.unit",
         "keyword.control",
         "keyword.other.template",
-        "keyword.other.substitution"
+        "keyword.other.substitution",
+        "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "{{darkred}}"
+        "foreground": "{{darkred}}",
+        "fontStyel": "italic"
       }
     },
     {
@@ -82,20 +87,18 @@
       }
     },
     {
-      "name": "Keyword, Storage",
+      "name": "Storage",
       "scope": [
-        "keyword",
         "storage.type",
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "{{purple}}"
+        "foreground": "{{blue}}"
       }
     },
     {
-      "name": "Keyword, Storage",
+      "name": "Storage",
       "scope": [
-        "Keyword",
         "Storage"
       ],
       "settings": {
@@ -119,15 +122,6 @@
       }
     },
     {
-      "name": "Keyword Control",
-      "scope": [
-        "keyword.control"
-      ],
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
-    {
       "name": "Tag",
       "scope": [
         "entity.name.tag",
@@ -144,10 +138,9 @@
         "entity.name.function",
         "variable.function",
         "support.function",
-        "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "{{yellow}}"
+        "foreground": "{{blue}}"
       }
     },
     {
@@ -186,11 +179,9 @@
         "support.constant",
         "constant.character",
         "constant.escape",
-        "keyword.other.unit",
-        "keyword.other"
       ],
       "settings": {
-        "foreground": "{{orange}}"
+        "foreground": "{{yellow}}"
       }
     },
     {
@@ -321,7 +312,7 @@
     {
       "name": "CSS ID's",
       "scope": [
-        "source.sass keyword.control"
+        "source.sass"
       ],
       "settings": {
         "foreground": "{{blue}}"

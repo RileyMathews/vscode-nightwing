@@ -3,14 +3,19 @@
   "type": "dark",
   "tokenColors": [
     {
-      "name": "Language Control",
+      "name": "Keywords",
       "scope": [
+        "keyword",
+        "keyword.other",
+        "keyword.other.unit",
         "keyword.control",
         "keyword.other.template",
-        "keyword.other.substitution"
+        "keyword.other.substitution",
+        "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#B20800"
+        "foreground": "#DE0A00",
+        "fontStyel": "italic"
       }
     },
     {
@@ -82,20 +87,18 @@
       }
     },
     {
-      "name": "Keyword, Storage",
+      "name": "Storage",
       "scope": [
-        "keyword",
         "storage.type",
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#A612EB"
+        "foreground": "#5F6AFE"
       }
     },
     {
-      "name": "Keyword, Storage",
+      "name": "Storage",
       "scope": [
-        "Keyword",
         "Storage"
       ],
       "settings": {
@@ -119,15 +122,6 @@
       }
     },
     {
-      "name": "Keyword Control",
-      "scope": [
-        "keyword.control"
-      ],
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
-    {
       "name": "Tag",
       "scope": [
         "entity.name.tag",
@@ -144,10 +138,9 @@
         "entity.name.function",
         "variable.function",
         "support.function",
-        "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#FFD042"
+        "foreground": "#5F6AFE"
       }
     },
     {
@@ -186,11 +179,9 @@
         "support.constant",
         "constant.character",
         "constant.escape",
-        "keyword.other.unit",
-        "keyword.other"
       ],
       "settings": {
-        "foreground": "#FF8615"
+        "foreground": "#FFD042"
       }
     },
     {
@@ -321,7 +312,7 @@
     {
       "name": "CSS ID's",
       "scope": [
-        "source.sass keyword.control"
+        "source.sass"
       ],
       "settings": {
         "foreground": "#5F6AFE"
@@ -446,7 +437,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#B20800"
+        "foreground": "#DE0A00"
       }
     },
     {
