@@ -8,7 +8,7 @@
         "keyword"
       ],
       "settings": {
-        "foreground": "{{red}}",
+        "foreground": "{{keyword}}",
         "fontStyle": "italic"
       }
     },
@@ -18,7 +18,7 @@
         "string"
       ],
       "settings": {
-        "foreground": "{{green}}"
+        "foreground": "{{string}}"
       }
     },
     {
@@ -27,7 +27,7 @@
         "punctuation"
       ],
       "settings": {
-        "foreground": "{{cyan}}"
+        "foreground": "{{punctuation}}"
       }
     },
     {
@@ -36,7 +36,7 @@
         "entity"
       ],
       "settings": {
-        "foreground": "{{yellow}}"
+        "foreground": "{{entity}}"
       }
     },
     {
@@ -45,7 +45,7 @@
         "constant"
       ],
       "settings": {
-        "foreground": "{{orange}}"
+        "foreground": "{{constant}}"
       }
     },
     {
@@ -54,7 +54,7 @@
         "comment"
       ],
       "settings": {
-        "foreground": "{{green}}90"
+        "foreground": "{{string}}90"
       }
     },
     {
@@ -71,8 +71,8 @@
     "contrastBorder": "{{ui.border}}",
     "focusBorder": "{{ui.accentBorder}}",
     "foreground": "{{ui.foreground}}",
-    "widget.shadow": "{{tgray}}",
-    "selection.background": "{{white}}70",
+    "widget.shadow": "{{ui.background}}50",
+    "selection.background": "{{ui.foreground}}70",
     "descriptionForeground": "{{ui.foreground}}",
     "errorForeground": "{{ui.foreground}}",
     "button.background": "{{ui.primary}}",
@@ -96,7 +96,7 @@
     "inputValidation.warningBackground": "{{ui.warning}}",
     "inputValidation.warningForeground": "{{ui.foreground}}",
     "inputValidation.warningBorder": "{{ui.accentBorder}}",
-    "scrollbar.shadow": "{{tgray}}",
+    "scrollbar.shadow": "{{ui.background}}50",
     "scrollbarSlider.activeBackground": "{{ui.primary}}80",
     "scrollbarSlider.background": "{{ui.primary}}20",
     "scrollbarSlider.hoverBackground": "{{ui.primary}}50",
@@ -105,14 +105,14 @@
     "progressBar.background": "{{ui.background}}",
     "list.activeSelectionBackground": "{{ui.primary}}80",
     "list.activeSelectionForeground": "{{ui.foreground}}",
-    "list.dropBackground": "{{yellow}}",
+    "list.dropBackground": "{{ui.primary}}50",
     "list.focusBackground": "{{ui.primary}}30",
     "list.focusForeground": "{{ui.foreground}}",
     "list.highlightForeground": "{{ui.accentForeground}}",
     "list.hoverBackground": "{{ui.primary}}30",
-    "list.inactiveSelectionBackground": "{{tgray}}",
+    "list.inactiveSelectionBackground": "{{ui.foreground}}30",
     "list.inactiveSelectionForeground": "{{ui.foreground}}",
-    "list.inactiveFocusBackground": "{{twhite}}",
+    "list.inactiveFocusBackground": "{{ui.foreground}}50",
     "list.invalidItemForeground": "{{ui.error}}",
     "list.errorForeground": "{{ui.error}}",
     "list.warningForeground": "{{ui.warning}}",
