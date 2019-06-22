@@ -1,6 +1,6 @@
 {
-  "id": "material.theme.darker.hc",
-  "name": "Material-Theme-Darker-High-Contrast",
+  "id": "nightwing-base",
+  "name": "Nightwing",
   "type": "dark",
   "scheme": {
     "background": "#212121",
