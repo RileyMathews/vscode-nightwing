@@ -149,7 +149,7 @@
     "statusBar.foreground": "{{ui.foreground}}",
     "statusBar.border": "{{ui.border}}",
     "statusBar.noFolderForeround": "{{ui.foreground}}",
-    "statusBar.noFolderBackground": "{{ui.ui.background}}",
+    "statusBar.noFolderBackground": "{{ui.background}}",
     "statusBar.noFolderBorder": "{{ui.border}}"
   }
 }

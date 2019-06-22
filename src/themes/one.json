@@ -1,0 +1,27 @@
+{
+  "name": "one",
+  "type": "dark",
+  "keyword": "#FF1100",
+  "string": "#29C2FF",
+  "punctuation": "#2E38FF",
+  "entity": "#FFAA00",
+  "constant": "#FF6761",
+  "ui": {
+    "background": "#151515",
+    "foreground": "#ebebeb",
+    "primary": "#89DDFF",
+    "primaryContrast": "#000000",
+    "accentBackground": "#202020",
+    "accentForeground": "#ffffff",
+    "border": "#000000",
+    "accentBorder": "#888888",
+    "elementBackground": "#89DDFF20",
+    "elementHoverBackground": "#89DDFF50",
+    "elementActiveBackground": "#89DDFF70",
+    "elementForeground": "#ffffff",
+    "badgeForeground": "#000000",
+    "badgeBackground": "#89DDFF",
+    "warning": "#FFCB6B",
+    "error": "#FF5370"
+  }
+}

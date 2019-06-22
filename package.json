@@ -15,14 +15,19 @@
         "Themes"
     ],
     "scripts": {
-        "build": "mustache ./src/values.json ./src/template.json > ./themes/Nightwing-color-theme.json"
+        "build": "node ./build_scripts/build.js"
     },
     "contributes": {
         "themes": [
             {
-                "label": "Nightwing",
+                "label": "Nightwing: one",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Nightwing-color-theme.json"
+                "path": "./themes/Nightwing-one.json"
+            },
+            {
+                "label": "Nightwing: two",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Nightwing-two.json"
             }
         ]
     },
