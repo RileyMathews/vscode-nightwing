@@ -28,6 +28,11 @@
                 "label": "Nightwing: two",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Nightwing-two.json"
+            },
+            {
+                "label": "Nightwing: three",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Nightwing-three.json"
             }
         ]
     },

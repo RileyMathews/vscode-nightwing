@@ -5,7 +5,8 @@
     {
       "name": "Keyword*",
       "scope": [
-        "keyword"
+        "keyword",
+        "storage"
       ],
       "settings": {
         "foreground": "{{keyword}}",
@@ -52,7 +53,8 @@
     {
       "name": "Comment*",
       "scope": [
-        "comment"
+        "comment",
+        "string.quoted.docstring"
       ],
       "settings": {
         "foreground": "{{string}}90"

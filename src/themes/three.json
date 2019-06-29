@@ -1,0 +1,27 @@
+{
+  "name": "two",
+  "type": "dark",
+  "keyword": "#9D44B5",
+  "string": "#80FF72",
+  "punctuation": "#96C5F7",
+  "entity": "#ECC30B",
+  "constant": "#DE3C4B",
+  "ui": {
+    "background": "#151515",
+    "foreground": "#ebebeb",
+    "primary": "#DE3C4B",
+    "primaryContrast": "#FFFFFF",
+    "accentBackground": "#202020",
+    "accentForeground": "#ffffff",
+    "border": "#000000",
+    "accentBorder": "#888888",
+    "elementBackground": "#89DDFF20",
+    "elementHoverBackground": "#89DDFF50",
+    "elementActiveBackground": "#89DDFF70",
+    "elementForeground": "#ffffff",
+    "badgeForeground": "#000000",
+    "badgeBackground": "#89DDFF",
+    "warning": "#FFCB6B",
+    "error": "#FF5370"
+  }
+}
