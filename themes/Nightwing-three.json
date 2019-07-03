@@ -1,5 +1,5 @@
 {
-  "name": "two",
+  "name": "three",
   "type": "dark",
   "tokenColors": [
     {
@@ -9,17 +9,20 @@
         "storage"
       ],
       "settings": {
-        "foreground": "#9D44B5",
+        "foreground": "#f92672",
         "fontStyle": "italic"
       }
     },
     {
       "name": "String*",
       "scope": [
-        "string"
+        "string",
+        "constant.other.symbol.ruby",
+        "constant.numeric",
+        "constant.language"
       ],
       "settings": {
-        "foreground": "#80FF72"
+        "foreground": "#a6e22e"
       }
     },
     {
@@ -28,7 +31,7 @@
         "punctuation"
       ],
       "settings": {
-        "foreground": "#96C5F7"
+        "foreground": "#66d9ef"
       }
     },
     {
@@ -38,7 +41,7 @@
         "support"
       ],
       "settings": {
-        "foreground": "#ECC30B"
+        "foreground": "#fd971f"
       }
     },
     {
@@ -47,7 +50,7 @@
         "constant"
       ],
       "settings": {
-        "foreground": "#DE3C4B"
+        "foreground": "#ae81ff"
       }
     },
     {
@@ -57,7 +60,7 @@
         "string.quoted.docstring"
       ],
       "settings": {
-        "foreground": "#80FF7290"
+        "foreground": "#a6e22e90"
       }
     }
   ],
@@ -69,8 +72,8 @@
     "selection.background": "#ebebeb70",
     "descriptionForeground": "#ebebeb",
     "errorForeground": "#ebebeb",
-    "button.background": "#DE3C4B",
-    "button.hoverBackground": "#DE3C4B30",
+    "button.background": "#f92672",
+    "button.hoverBackground": "#f9267230",
     "button.foreground": "#FFFFFF",
     "dropdown.background": "#151515",
     "dropdown.listBackground": "#151515",
@@ -91,19 +94,19 @@
     "inputValidation.warningForeground": "#ebebeb",
     "inputValidation.warningBorder": "#888888",
     "scrollbar.shadow": "#15151550",
-    "scrollbarSlider.activeBackground": "#DE3C4B80",
-    "scrollbarSlider.background": "#DE3C4B20",
-    "scrollbarSlider.hoverBackground": "#DE3C4B50",
+    "scrollbarSlider.activeBackground": "#f9267280",
+    "scrollbarSlider.background": "#f9267220",
+    "scrollbarSlider.hoverBackground": "#f9267250",
     "badge.foreground": "#FFFFFF",
-    "badge.background": "#DE3C4B",
+    "badge.background": "#f92672",
     "progressBar.background": "#151515",
-    "list.activeSelectionBackground": "#DE3C4B80",
+    "list.activeSelectionBackground": "#f9267280",
     "list.activeSelectionForeground": "#ebebeb",
-    "list.dropBackground": "#DE3C4B50",
-    "list.focusBackground": "#DE3C4B30",
+    "list.dropBackground": "#f9267250",
+    "list.focusBackground": "#f9267230",
     "list.focusForeground": "#ebebeb",
     "list.highlightForeground": "#ffffff",
-    "list.hoverBackground": "#DE3C4B30",
+    "list.hoverBackground": "#f9267230",
     "list.inactiveSelectionBackground": "#ebebeb30",
     "list.inactiveSelectionForeground": "#ebebeb",
     "list.inactiveFocusBackground": "#ebebeb50",
@@ -114,22 +117,22 @@
     "listFilterWidget.outline": "#000000",
     "listFilterWidget.noMatchesOutline": "#FFCB6B",
     "activityBar.background": "#151515",
-    "activityBar.dropBackground": "#DE3C4B30",
+    "activityBar.dropBackground": "#f9267230",
     "activityBar.foreground": "#ffffff",
     "activityBar.inactiveForeground": "#ebebeb",
     "activityBar.border": "#000000",
-    "activityBarBadge.background": "#DE3C4B",
+    "activityBarBadge.background": "#f92672",
     "activityBarBadge.foreground": "#FFFFFF",
     "sideBar.background": "#151515",
     "sideBar.foreground": "#ebebeb",
     "sideBar.border": "#000000",
-    "sideBar.dropBackground": "#DE3C4B30",
+    "sideBar.dropBackground": "#f9267230",
     "sideBarTitle.foreground": "#ffffff",
     "sideBarSectionHeader.background": "#202020",
     "sideBarSectionHeader.foreground": "#ffffff",
     "sideBarSectionHeader.border": "#000000",
     "editorGroup.border": "#000000",
-    "editorGroup.dropBackground": "#DE3C4B30",
+    "editorGroup.dropBackground": "#f9267230",
     "editorGroupHeader.noTabsBackground": "#202020",
     "editorGroupHeader.tabsBackground": "#151515",
     "editorGroupHeader.tabsBorder": "#000000",
@@ -139,14 +142,14 @@
     "tab.unfocusedActiveBackground": "#202020",
     "tab.activeForeground": "#ffffff",
     "tab.border": "#000000",
-    "tab.activeBorder": "#DE3C4B",
-    "tab.unfocusedActiveBorder": "#DE3C4B",
+    "tab.activeBorder": "#f92672",
+    "tab.unfocusedActiveBorder": "#f92672",
     "tab.inactiveBackground": "#151515",
     "editor.background": "#202020",
     "editor.foreground": "#ffffff",
     "panel.background": "#151515",
     "panel.border": "#000000",
-    "panel.dropBackground": "#DE3C4B30",
+    "panel.dropBackground": "#f9267230",
     "statusBar.background": "#151515",
     "statusBar.foreground": "#ebebeb",
     "statusBar.border": "#000000",

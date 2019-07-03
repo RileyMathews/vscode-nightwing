@@ -16,7 +16,10 @@
     {
       "name": "String*",
       "scope": [
-        "string"
+        "string",
+        "constant.other.symbol.ruby",
+        "constant.numeric",
+        "constant.language"
       ],
       "settings": {
         "foreground": "{{string}}"
